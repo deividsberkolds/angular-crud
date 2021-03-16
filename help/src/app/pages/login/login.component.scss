@@ -1,0 +1,10 @@
+@import "../../../../../../angular-crud/help/node_modules/bootstrap/scss/bootstrap";
+
+.custom-class {
+  visibility: hidden;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    visibility: visible;
+  }
+}
